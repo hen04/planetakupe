@@ -1161,6 +1161,7 @@ header.menu-pages {
   padding-left: 35px;
   box-sizing: border-box;
   position: relative;
+  margin-bottom: 15px;
 }
 
 .contact-item:before {
