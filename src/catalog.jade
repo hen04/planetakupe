@@ -3,4 +3,58 @@ extends template.jade
 block content
 	.catalog
 		.wrapper
-			| Каталог
+			.cat-filter
+				.cat-filter__price-sort
+					.cat-filter__price
+						span Price
+						
+					.cat-filter__sort
+						span Sort by
+				.cat-filter__type
+					span Type
+					.cat-filter-type-list
+						span.cat-filter-type Первый						
+						span.cat-filter-type Второй
+						span.cat-filter-type Первый
+						span.cat-filter-type Второй
+						span.cat-filter-type Первый
+						span.cat-filter-type Второй
+			span.cat-result 12,931 results in featured 
+			.catalog-list
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+				a(href="#").catalog-item
+					img(src="img/cat-1.jpg", alt="")
+					p.name Three white coupe L51
+					p.price 15 000 p
+			ul.catalog-pagination
+				li.active
+					a(href="") 1
+				li
+					a(href="") 2
+				li
+					a(href="") 3
+				li
+					a(href="") 4
+				li
+					a(href="") 5
+				li
+					a(href="") 6

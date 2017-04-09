@@ -1,0 +1,31 @@
+extends template.jade
+
+block content
+	.contact
+		.wrapper
+			.contact__info
+				.contact__form
+					h3 Обратная связь
+					form(action="")
+						label.fio
+							input(type="text" name="" placeholder="Ф.И.О.")
+						label.mail
+							input(type="email" name="" placeholder="E-mail")
+						label.message
+							textarea(name="" placeholder="Сообщение")
+						button(type="submit") Отправить
+				.contact__txt
+					h3 Контактная информация
+					.contact-item.contact-item--addr
+						h4 Адрес
+						p Ул. Пушкина, д. 3к2 офис 205
+					.contact-item.contact-item--phone
+						h4 Контактные телефоны
+						p +7(000)000-00-00
+						p +7(000)000-00-00
+					.contact-item.contact-item--mail
+						h4 Электроная почта
+						p 
+							a(href="mailto:example@example.com") example@example.com
+						p
+							a(href="mailto:example@example.com") example@example.com
